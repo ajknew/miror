@@ -15,7 +15,7 @@ jobs:
 
     - name: Extract ZIP Project
       run: |
-        unzip -q "*.zip"
+        unzip -o -q "*.zip"
         chmod +x gradlew
 
     - name: Set up Java JDK 17
